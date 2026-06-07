@@ -9,7 +9,7 @@ public class Chatapp {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         
-        System.out.println("Register Ur Account");
+        System.out.println("Register Your Account");
         
         System.out.print("Enter your first name: ");
         String firstName = kb.nextLine();
