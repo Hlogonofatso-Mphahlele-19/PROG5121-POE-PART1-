@@ -23,7 +23,7 @@ public class Chatapp {
         System.out.print("Enter your password: ");
         String password = kb.nextLine();
         
-        System.out.print("Enter your cellphone number: ");
+        System.out.print("Enter your cell phone number: ");
         String cellPhoneNumber = kb.nextLine();
         
         Login user = new Login(username, password, cellPhoneNumber);
@@ -37,7 +37,7 @@ public class Chatapp {
             System.out.print("Enter your username: ");
             String loginUsername = kb.nextLine();
             
-            System.out.print("Enter ur password: ");
+            System.out.print("Enter your password: ");
             String loginPassword = kb.nextLine();
             
             boolean LoginSuccess = user.loginUser(loginUsername, loginPassword);
